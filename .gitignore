@@ -21,7 +21,6 @@ env/
 Thumbs.db
 
 # Generated artifacts (keep source, ignore outputs)
-/figures/
 /report/*.docx
 /report/*.pptx
 
