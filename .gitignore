@@ -1,13 +1,30 @@
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-.DS_Store
-*.ipynb_checkpoints
+*.egg-info/
+dist/
+build/
+
+# Jupyter
 .ipynb_checkpoints/
-env/
-venv/
+*/.ipynb_checkpoints/
+
+# Environments
 .env
+.envrc
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated artifacts (keep source, ignore outputs)
+/figures/
 /report/*.docx
 /report/*.pptx
-/figures/
+
+# Temp build files
+rebuild_notebooks.py
 create_notebooks.py
